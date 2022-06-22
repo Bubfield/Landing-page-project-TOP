@@ -1,0 +1,194 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  background: #1f2937;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-section {
+  background: #1f2937;
+  height: 480px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar h3 {
+  color: white;
+  font-size: 24px;
+}
+
+.nav-links {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+}
+
+.main-container img {
+  width: 500px;
+  height: 220px;
+}
+
+.main-text {
+  width: 450px;
+  margin-right: 150px;
+}
+
+.main-text h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bolder;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.main-text p {
+  color: #e5e7ebdc;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.main-text button {
+  background-color: #3882f6;
+  color: white;
+  width: 120px;
+  height: 31px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.second-section {
+  background-color: white;
+  text-align: center;
+  height: 480px;
+}
+
+.second-section h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding-top: 40px;
+}
+
+.second-section img {
+  width: 150px;
+  height: 150px;
+  border: 4px #3882f6 solid;
+  border-radius: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.image-container p {
+  font-size: 18px;
+  color: #435875;
+  width: 200px;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 270px;
+}
+
+.third-section .quote {
+  width: 790px;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote p {
+  margin-bottom: 0;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+  width: 710px;
+}
+
+.author p {
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.fourth-section {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  align-items: center;
+}
+
+.signup-container {
+  background-color: #3882f6;
+  width: 950px;
+  height: 130px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup-text {
+  line-height: 0;
+}
+
+.signup-text h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.signup-text p {
+  color: #e5e7eb;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.signup-container button {
+  background-color: #3882f6;
+  color: white;
+  border: 2px white solid;
+  width: 120px;
+  height: 31px;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fifth-section p {
+  color: #e5e7eb;
+  padding: 20px;
+  text-align: center;
+}
